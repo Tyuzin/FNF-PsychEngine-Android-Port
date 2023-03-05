@@ -96,7 +96,7 @@ class FPS extends TextField
 			memoryMegas = Math.abs(FlxMath.roundDecimal(System.totalMemory / 1000000, 1));
 			text += "\nRam: " + memoryMegas + " MB";
 			text += "\nOS: " + '${lime.system.System.platformLabel}';
-                        text += "\nGLRender: " + '${getGLInfo(RENDERER)}';
+                        text += "\nGPU: " + '${getGLInfo(RENDERER)}';
 			#end
 
 			textColor = 0xFFFFFFFF;
