@@ -95,7 +95,7 @@ class FPS extends TextField
 			#if openfl
 			memoryMegas = Math.abs(FlxMath.roundDecimal(System.totalMemory / 1000000, 1));
 			text += "\nMemory: " + memoryMegas + " MB";
-			text += "\nSystem: " + '${lime.system.System.platformLabel} ${lime.system.System.platformVersion}';
+			text += "\nSystem: " + '${lime.system.System.platformLabel}';
       text += "\nGL Render: " + '${getGLInfo(RENDERER)}';
       text += "\nGLShading Version: " + '${getGLInfo(SHADING_LANGUAGE_VERSION)})';
 			#end
